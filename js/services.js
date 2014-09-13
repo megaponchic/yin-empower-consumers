@@ -75,7 +75,7 @@ define(['globals', 'angular', 'moment'],
 
                 var api = {
                     searchProfiles: {
-                        get: function(lat, lng) {
+                        get: function(lat, lng, price, rooms, area, propertyType) {
                             return $http({
                                 method: 'GET',
                                 // url: '/api/predictions',
@@ -83,7 +83,11 @@ define(['globals', 'angular', 'moment'],
                                 // url: '/yin-api/services/growth/historical',
                                 params: {
                                     lat: lat,
-                                    lng: lng
+                                    lng: lng,
+                                    price: price,
+                                    rooms: rooms,
+                                    area: area,
+                                    propertyType: propertyType
                                 }
                             });
                         }
