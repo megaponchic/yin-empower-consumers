@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" ng-controller="BaseController">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matcher Map</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet/less" type="text/css" href="css/app.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js"></script>
+    <script data-main="/js/app" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-static-top navbar-mm" role="navigation">
+            <div class="container-fluid navbar-border">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="" id="top-logo" class="pull-left">
+                            <img src="/img/groupestate-logo.png" alt="GroupEstate Logo" />
+                        </a>
+                        <div class="pull-left logo-mm"><h1>Matcher Map</h1></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4" style="overflow:scroll;" left-block>
+                <form class="margin-top-20">
+                    <div class="form-group">
+                        <input type="text" sb-search-input ng-model="Data.search.query" class="form-control input-lg" placeholder="Start typing a city, district or a street">
+                    </div>
+                    <h4>Type of real estate</h4>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.building"> Building
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.appartment"> Appartment
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.reality"> Reality
+                            </label>
+                        </div>
+                    </div>
+                    <h4>Your price</h4>
+                    <div class="form-group">
+                        <div sb-no-ui-slider class="" options="priceFilter"></div>                        
+                    </div>
+                    <h4 class="margin-top-30">Minimum number of rooms</h4>
+                    <div class="form-group">
+                        <div sb-no-ui-slider class="" options="roomsFilter"></div>                        
+                    </div>
+                    <h4 class="margin-top-30">Minimum area</h4>
+                    <div class="form-group">
+                        <div sb-no-ui-slider class="" options="areaFilter"></div>                        
+                    </div>
+                    <button type="submit" ng-click="searchProfiles(Data.search)" ladda-button data-style="expand-right" class="ladda-button btn btn-lg btn-block btn-success pull-right margin-top-30"><span class="ladda-label">Search</span></button>
+                </form>
+            </div>
+            <div sb-map ng-model="search" class="col-xs-8"></div>
+        </div>
+    </div>
+</body>
+
+</html>
