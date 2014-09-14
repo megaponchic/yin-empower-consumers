@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <a href="" id="top-logo" class="pull-left">
-                            <img src="/img/groupestate-logo.png" alt="GroupEstate Logo" />
+                            <img src="img/groupestate-logo.png" alt="GroupEstate Logo" />
                         </a>
                         <div class="pull-left logo-mm"><h1>Matcher Map</h1></div>
                     </div>
@@ -36,19 +36,19 @@
                     </div>
                     <h4>Type of real estate</h4>
                     <div class="form-group">
-                        <div class="checkbox">
+                        <div class="radio">
                             <label>
-                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.building"> Building
+                                <input type="radio" name="typeProperty" class="" ng-model="Data.search.propertyType" value="SINGLE_HOUSE"> Single house
                             </label>
                         </div>
-                        <div class="checkbox">
+                        <div class="radio">
                             <label>
-                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.appartment"> Appartment
+                                <input type="radio" name="typeProperty" class="" ng-model="Data.search.propertyType" value="APPARTMENT"> Appartment
                             </label>
                         </div>
-                        <div class="checkbox">
+                        <div class="radio">
                             <label>
-                                <input type="checkbox" name="typeProperty" class="" ng-model="Data.search.propertyType.reality"> Reality
+                                <input type="radio" name="typeProperty" class="" ng-model="Data.search.propertyType" value="REALITY"> Reality
                             </label>
                         </div>
                     </div>
