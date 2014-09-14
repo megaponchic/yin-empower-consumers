@@ -229,7 +229,7 @@ define(['globals', 'angular', 'moment', './services', 'async!https://maps.google
                                                     path: google.maps.SymbolPath.CIRCLE,
                                                     fillColor: '#0000ff',
                                                     fillOpacity: 0.5,
-                                                    scale: val.radius*1/scope.Data.scale[scope.Data.sbMap.map.getZoom().toString()]*500000,
+                                                    scale: val.radius*1/scope.Data.scale[scope.Data.sbMap.map.getZoom().toString()]*1000000,
                                                     // strokeColor: 'gold',
                                                     strokeWeight: 0
                                                 },

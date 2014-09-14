@@ -146,8 +146,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.50269549999999",
-    "latitude": "13.23554839999997"
+    "longitude": "13.23554839999997",
+    "latitude": "52.50269549999999"
 }, {
     "groupName": " berlin a big one",
     "groupId": 11,
@@ -206,8 +206,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.5730535",
-    "latitude": "13.5451147"
+    "longitude": "13.5451147",
+    "latitude": "52.5730535"
 }, {
     "groupName": " KreuzbergBig hosue ",
     "groupId": 3,
@@ -341,8 +341,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.3802183",
-    "latitude": "13.403670499999976"
+    "longitude": "13.403670499999976",
+    "latitude": "52.3802183"
 }, {
     "groupName": "10999, Berlin, DeutschlandWir kaufen eine Wohnung zu mieten",
     "groupId": 36,
@@ -356,8 +356,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.4956904",
-    "latitude": "13.427200900000003"
+    "longitude": "13.427200900000003",
+    "latitude": "52.4956904"
 }, {
     "groupName": "berlin something big",
     "groupId": 15,
@@ -386,8 +386,8 @@
     "type": "APARTMENT",
     "additionalCosts": 12,
     "requiredDownpayment": 20,
-    "longitude": "52.5267559",
-    "latitude": "13.411121699999967"
+    "longitude": "13.411121699999967",
+    "latitude": "52.5267559"
 }, {
     "groupName": " LeipzigAltbau, 3 rooms, balcony. ",
     "groupId": 4,
@@ -416,8 +416,8 @@
     "type": "SINGLE_HOUSE",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.434879",
-    "latitude": "13.542114900000001"
+    "longitude": "13.542114900000001",
+    "latitude": "52.434879"
 }, {
     "groupName": "10243, Berlin, DeutschlandEin Büro für die Durchführung von Hackatones",
     "groupId": 33,
@@ -431,8 +431,8 @@
     "type": "APARTMENT",
     "additionalCosts": 22,
     "requiredDownpayment": 20,
-    "longitude": "52.5147455",
-    "latitude": "13.438560000000052"
+    "longitude": "13.438560000000052",
+    "latitude": "52.5147455"
 }, {
     "groupName": "no name",
     "groupId": 6,
@@ -461,8 +461,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.5004054",
-    "latitude": "13.43340169999999"
+    "longitude": "13.43340169999999",
+    "latitude": "52.5004054"
 }, {
     "groupName": "no name",
     "groupId": 19,
@@ -491,8 +491,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.515919",
-    "latitude": "13.45457399999998"
+    "longitude": "13.45457399999998",
+    "latitude": "52.515919"
 }, {
     "groupName": "Berlin, Deutschlandhuge house with pool and more",
     "groupId": 2,
@@ -506,8 +506,8 @@
     "type": "APARTMENT",
     "additionalCosts": 14,
     "requiredDownpayment": 21,
-    "longitude": "52.52000659999999",
-    "latitude": "13.404953999999975"
+    "longitude": "13.404953999999975",
+    "latitude": "52.52000659999999"
 }, {
     "groupName": "dddffd",
     "groupId": 21,
@@ -551,8 +551,8 @@
     "type": "SINGLE_HOUSE",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.5884073",
-    "latitude": "13.45954359999996"
+    "longitude": "13.45954359999996",
+    "latitude": "52.5884073"
 }, {
     "groupName": "Neukölln, Berlin, DeutschlandStudentenwohnung als WG für 3 Personen",
     "groupId": 31,
@@ -566,8 +566,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.481389",
-    "latitude": "13.43527800000004"
+    "longitude": "13.43527800000004",
+    "latitude": "52.481389"
 }, {
     "groupName": "12043, Berlin, DeutschlandA flat with two bedrooms, and up to four co-investors",
     "groupId": 35,
@@ -581,8 +581,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.4777481",
-    "latitude": "13.441538700000024"
+    "longitude": "13.441538700000024",
+    "latitude": "52.4777481"
 }, {
     "groupName": "no name",
     "groupId": 20,
@@ -626,8 +626,8 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.4867189",
-    "latitude": "13.434371499999997"
+    "longitude": "13.434371499999997",
+    "latitude": "52.4867189"
 }, {
     "groupName": "no name",
     "groupId": 7,
@@ -656,6 +656,6 @@
     "type": "APARTMENT",
     "additionalCosts": 15,
     "requiredDownpayment": 20,
-    "longitude": "52.439284",
-    "latitude": "13.339546400000017"
+    "longitude": "13.339546400000017",
+    "latitude": "52.439284"
 }]
